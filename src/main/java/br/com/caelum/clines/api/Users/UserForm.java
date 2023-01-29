@@ -7,6 +7,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 @Data
+@NoArgsConstructor(access = AccessLevel.PACKAGE)
 @AllArgsConstructor
 @Getter
 public class UserForm {
